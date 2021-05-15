@@ -1,7 +1,5 @@
 package Gun03_Inheritance2;
 
-public class Logger {
-    public void log(){
-
-    }
+public interface Logger {
+    void log(String message);
 }

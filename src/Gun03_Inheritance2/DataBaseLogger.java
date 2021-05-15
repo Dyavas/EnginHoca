@@ -2,9 +2,10 @@ package Gun03_Inheritance2;
 
 
 
-public class DataBaseLogger extends Logger {
+public class DataBaseLogger implements Logger {
     @Override
-    public void log() {
+    public void log(String message) {
+
         System.out.println("Database Loglandi");
     }
 }

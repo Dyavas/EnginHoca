@@ -2,9 +2,9 @@ package Gun03_Inheritance2;
 
 
 
-public class FileLogger extends Logger {
+public class FileLogger implements Logger {
     @Override
-    public void log() {
+    public void log(String message) {
         System.out.println("Dosya Loglandi");
 
     }
